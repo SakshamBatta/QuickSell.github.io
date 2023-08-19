@@ -1,0 +1,115 @@
+.kanban-card {
+    border: 1px solid #ccc ;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    width: 255px;
+    height: 88px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .kanban-card p {
+    font-size: 12px;
+    margin: 0;
+    padding: 5px 0;
+    display: inline-block;
+    font-weight: 600;
+    
+  }
+  
+  .kanban-card p:first-child {
+    font-weight: 400;
+    color: #646363;
+    display: inline-block;
+
+  }
+
+  h5{
+    margin-top: 10px;   
+    /* font-weight: 900; */
+    
+  }
+  
+  button{
+    background-color: white;
+    height: 25px;
+    border-radius: 6px ;
+    border-style: solid;
+    border-color: #e8e0e0;
+  }
+  
+  .user-icon {
+    width: 15px;
+    height: 15px;
+    margin-bottom: -1px;
+    margin-left: 180px;
+  }
+  .dots-icon{
+    width: 10px;
+    height: 10px;
+    /* padding-right: 40px;
+    margin-left: -2px; */
+    /* margin-bottom: 10px; */
+  }
+  .dots{
+    display: inline-block;
+  }
+  .threedot-button{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    /* padding-right: 20px; */
+
+  }
+
+  .tag{
+    display: inline-block;
+    
+  }
+
+  #tag-feature{
+    margin-bottom: -20px;
+    font-size: 11px;
+  }
+  .dot-icon{
+    display: inline-block;
+    height: 9px;
+    padding-right: 5px;
+    
+  }
+  .singleDot{
+    /* height: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline; */
+}
+  
+
+  .title-width{
+    width: 255px;
+    margin-bottom: -200px;
+  }
+.below{
+    display: inline-flex;
+    margin-top: 15px;
+    width: 255px;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    /* align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-start; */
+}
+.dott{
+    display: inline-block;
+}
+.final{
+    display: inline-flex;
+}
